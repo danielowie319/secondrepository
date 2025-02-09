@@ -1,0 +1,115 @@
+
+:root {
+    /* Primary Color */
+    --primary-color: #048E7B;
+  
+    --background-color : #023931 ;
+  
+    /* Background */
+    --white-color: #ffffff; 
+  
+    /* Accent Gray */
+    --heading-text: #000;
+  
+    /* Text and Secondary Elements */
+    --text-color: #333;
+  
+    /* Divider Lines */
+  }
+
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  html {
+    font-size: 100%;
+  }
+
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  ul {
+    list-style: circle;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  header {
+    text-align: right;
+  }
+
+  .nav-link {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .nav-link :active {
+    color: #333;
+  }
+
+  .nav-link :hover {
+    color: var(--primary-color);
+    
+  }
+
+.btn {
+    border-radius: 10px;
+    background-color: #333;
+    border-color: rgb(36, 15, 22);
+    margin-top: 30px;
+
+}
+
+.hero-img {
+    margin-left: 700px;
+    position: absolute;
+    top: 150px;
+    height: 300px;
+    width: 400px;
+    border-radius: 10px;
+    
+}
+
+.text-light.fw-bold {
+    margin-top: 100px;
+}
+
+.featured {
+    display: flex;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 200px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+.col-12.col-l-3 {
+    width: 300px;
+}
+
+.reviews {
+    padding-top: 100px;
+}
+
+.container.review {
+   padding-top: 100px;
+}
+
+.review-text {
+     padding-bottom: 50px;
+}
+
+.img {
+    border-radius: 100%;
+}
+
+.at {
+    padding-top: 100px;
+}
